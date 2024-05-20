@@ -22,7 +22,7 @@ public class BookController {
     @PostMapping()
     public Result bookList() {
         List<Book> bookList = bookService.SelectAll();
-        log.info("{}", bookList);
+        log.info("bookList接口调用返回: {}", bookList);
         return Result.success(bookList);
     }
 }
