@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface BookService {
     public List<Book> SelectAll();
-
+//    gg
     Book SelectById(Integer id);
 }
