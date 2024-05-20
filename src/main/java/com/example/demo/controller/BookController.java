@@ -6,6 +6,7 @@ import com.example.demo.service.BookService;
 import lombok.extern.log4j.Log4j;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -25,4 +26,11 @@ public class BookController {
         log.info("bookList接口调用返回: {}", bookList);
         return Result.success(bookList);
     }
+
+    @PostMapping("/{id}")
+    public Result getBookById(@PathVariable("id") Integer id) {
+        Book book = bookService.SelectById(id);
+        return Result.success(book);
+    }
+
 }

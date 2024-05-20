@@ -8,4 +8,9 @@
         select *
         from Book;
     </select>
+    <select id="selectByid" resultType="com.example.demo.pojo.Book">
+        select *
+        from Book
+        where bookId = #{id}
+    </select>
 </mapper>
