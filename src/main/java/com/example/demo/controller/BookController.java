@@ -30,7 +30,7 @@ public class BookController {
     @PostMapping("/{id}")
     public Result getBookById(@PathVariable("id") Integer id) {
         Book book = bookService.SelectById(id);
-        log.info("bookId接口调用返回: {}", book);
+        log.info("bookId调用返回: {}", book);
         return Result.success(book);
     }
 
