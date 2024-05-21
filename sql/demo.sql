@@ -39,9 +39,11 @@ CREATE TABLE `family` (
   `family_id` int(11) NOT NULL AUTO_INCREMENT,
   `family_name` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`family_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 /*Data for the table `family` */
+
+insert  into `family`(`family_id`,`family_name`) values (1,'familyA'),(2,'familyB');
 
 /*Table structure for table `user` */
 
@@ -54,9 +56,11 @@ CREATE TABLE `user` (
   PRIMARY KEY (`user_id`),
   KEY `family_id` (`family_id`),
   CONSTRAINT `user_ibfk_1` FOREIGN KEY (`family_id`) REFERENCES `family` (`family_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 /*Data for the table `user` */
+
+insert  into `user`(`user_id`,`user_name`,`family_id`) values (1,'lisi',1),(3,'zhangsan',2);
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
