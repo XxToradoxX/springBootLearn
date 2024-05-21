@@ -10,7 +10,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class User {
-    Integer userName;
-    String userId;
+    String userName;
+    Integer userId;
     Family family;
 }
