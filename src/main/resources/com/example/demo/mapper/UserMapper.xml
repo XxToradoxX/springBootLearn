@@ -12,7 +12,9 @@
         </collection>
     </resultMap>
     <delete id="DeleteFamilyByIdAndAllItsUsers">
-        delete from user where family_id = #{familyId}
+        delete family,user
+        from family,user
+        where family.family_id = user.family_id and family.family_id = #{familyId}
     </delete>
     <select id="SelectAll" resultMap="UsersWithFamily">
         select a.user_id a_id,a.user_name a_name, b.family_id b_id,b.family_name b_name
