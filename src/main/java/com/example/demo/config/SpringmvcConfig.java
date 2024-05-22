@@ -10,5 +10,6 @@ public class SpringmvcConfig implements WebMvcConfigurer {
     public void addViewControllers(ViewControllerRegistry registry) {
 //        WebMvcConfigurer.super.addViewControllers(registry);
         registry.addViewController("/").setViewName("forward:nb.html");
+        registry.addViewController("/ts1").setViewName("aa");
     }
 }
