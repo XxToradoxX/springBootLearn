@@ -16,4 +16,9 @@ public class UserServiceImpl implements UserService {
     public List<User> SelectAll() {
         return userMapper.SelectAll();
     }
+
+    @Override
+    public Integer DeleteFamilyByIdAndAllItsUsers(Integer familyId) {
+        return userMapper.DeleteFamilyByIdAndAllItsUsers(familyId);
+    }
 }
