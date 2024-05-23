@@ -17,6 +17,7 @@ import java.util.List;
 @RestController
 @Slf4j
 @RequestMapping("/user")
+@CrossOrigin
 public class UserController {
     @Autowired
     UserService userService;
