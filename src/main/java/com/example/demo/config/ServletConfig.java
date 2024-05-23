@@ -15,7 +15,8 @@ public class ServletConfig {
     public ServletRegistrationBean<MyServlet> getServlet(MyServlet myServlet){
         ArrayList<String> arr = new ArrayList<>();
         arr.add("/byd");
-        ServletRegistrationBean<MyServlet> bean = new ServletRegistrationBean<>(myServlet,"/byd1");
+        arr.add("/byd1");
+        ServletRegistrationBean<MyServlet> bean = new ServletRegistrationBean<>(myServlet);
         bean.setUrlMappings(arr);
         return bean;
     }
