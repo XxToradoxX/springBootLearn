@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import com.example.demo.exception.AuthException;
 import com.example.demo.pojo.Result;
 import com.example.demo.pojo.User;
 import com.example.demo.service.UserService;
@@ -32,7 +33,7 @@ public class UserController {
         if(flag != null){
             return Result.success(flag);
         }else{
-            return Result.error("一个都没删啊一个都没");
+            throw new AuthException("删除失败");
         }
     }
 }
