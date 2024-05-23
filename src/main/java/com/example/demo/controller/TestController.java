@@ -15,6 +15,7 @@ public class TestController {
         modelAndView.setViewName("aa");
         return modelAndView;
     }
+    //thymeleaf版本要在3.X以上
     @GetMapping("/ts3")
     public String cc(Model model){
         model.addAttribute("bb","zbc");
