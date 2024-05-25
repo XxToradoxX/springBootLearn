@@ -42,7 +42,7 @@ public class TestController {
         }
         try {
             byte[] bytes = file.getBytes();
-            String uploadDir = "/com/example/demo/file";
+            String uploadDir = "D:/";
             File uploadedFile = new File(uploadDir + file.getOriginalFilename());
             file.transferTo(uploadedFile);
             return Result.success("File uploaded successfully!");
