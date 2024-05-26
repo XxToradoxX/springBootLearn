@@ -41,8 +41,9 @@ public class TestController {
             return Result.error("Please select a file to upload.");
         }
         try {
+//            System.out.println(System.getProperty("user.dir")+"\\src");
             byte[] bytes = file.getBytes();
-            String uploadDir = "D:/";
+            String uploadDir = System.getProperty("user.dir")+"\\src\\main\\java\\com\\example\\demo\\file\\";
             File uploadedFile = new File(uploadDir + file.getOriginalFilename());
             file.transferTo(uploadedFile);
             return Result.success("File uploaded successfully!");
