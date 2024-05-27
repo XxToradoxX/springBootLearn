@@ -42,8 +42,6 @@ public class TestController {
         }
         try {
 //            System.out.println(System.getProperty("user.dir")+"\\src");
-//            String uploadDir = "D:/";
-//            byte[] bytes = file.getBytes();
             String uploadDir = System.getProperty("user.dir")+"\\src\\main\\java\\com\\example\\demo\\file\\";
             File uploadedFile = new File(uploadDir + file.getOriginalFilename());
             file.transferTo(uploadedFile);
