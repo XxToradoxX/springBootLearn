@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;
 import org.springframework.http.HttpHeaders;
@@ -16,6 +17,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 @RestController
+@Slf4j
 public class DownloadController {
 
     private final String FILE_PATH = System.getProperty("user.dir") + "\\src\\main\\java\\com\\example\\demo\\file\\"; // 文件存储路径
@@ -25,6 +27,7 @@ public class DownloadController {
     {
         try {
             Path filePath = Paths.get(FILE_PATH + filename);
+            log.info("打印uri:  {}",filePath.toUri());
             Resource resource = new UrlResource(filePath.toUri());//Resource resource = new UrlResource(filePath.toUri());
             if (!resource.exists()) //检查资源是否存在。如果不存在，抛出MalformedURLException异常。
             {
