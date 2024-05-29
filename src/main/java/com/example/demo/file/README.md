@@ -6,7 +6,7 @@
 
 预约挂号系统采用了**基于角色的访问控制**，角色和菜单关联，一个角色可以配置多个菜单权限；然后再将用户和角色关联，一位用户可以赋予多个角色。这样用户就可以根据角色拿到该有的菜单权限，更方便医院管理人员进行权限管控。
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/39.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/39.png)
 
 患者去医院都是排队挂号，但随着科技的发展，预约挂号脱颖而出，医院门诊预约挂号管理系统操作简单明了与互联网紧密相关、适应时代发展的潮流。通过医院门诊预约挂号系统，可以极大的方便挂号者进行预约挂号，同事还能是医院更加合理的安排排号者就医并提供更优质的医疗服务。既能适当解决当前中国面临的医院门诊挂号排队时间长、挂号环境乱的问题，又能方便广大预约者挂号预约自己相对满意的医生和专家。
 
@@ -14,11 +14,11 @@
 
 《医院门诊预约挂号管理系统》的登陆界面如下图所示。
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/2.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/2.png)
 
 《医院门诊预约挂号管理系统》的主页如下图所示。
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/3.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/3.png)
 
 ## 技术栈
 
@@ -52,7 +52,7 @@ Maven：后端项目的打包工具，使用版本为 3.6.2。
 
 NodeJs：前端项目的开发环境，使用版本为 16.13.0。
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/1.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/1.png)
 
 ## 开发模板
 
@@ -92,43 +92,43 @@ NodeJs：前端项目的开发环境，使用版本为 16.13.0。
 
 图片验证码为随机的 4 位阿拉伯数字，用户输入图片中的四位验证码，即可完成登陆。
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/2.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/2.png)
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/38.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/38.png)
 
 用户登陆功能，系统首先会效验验证码，验证码有效期为 60 秒，如果超过有效期，系统会提示需要重新登陆，如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/4.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/4.png)
 
 如果遇到看不清楚的验证码，可以点击验证码图片可以完成刷新。
 
 为了保证系统安全，不被频繁请求访问，如果用户输入错误的验证码，系统将提示“图形验证码输入错误”，不给与登陆，用户需要重新输入验证码。
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/5.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/5.png)
 
 当输入的验证码正确后，系统第二步会验证用户输入的账号密码，若账号密码输入错误，系统给与提示，告知密码不正确。
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/6.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/6.png)
 
 当用户输入的账号密码、图形验证码都正确后，系统给与登陆，进入到系统首页，如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/3.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/3.png)
 
 ### 注册界面
 
 系统开放了用户注册的功能，患者可以自助注册患者账户，进入系统后，点击登陆按钮上方的“注册账号”绿色超链接，跳转到注册界面。
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/7.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/7.png)
 
 注册界面如下图所示，用户需要输入自己的手机号、用户名、密码和图形验证码，完成患者用户注册。然后使用注册时填入的手机号和密码，完成系统登陆。
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/8.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/8.png)
 
 ### 科室管理模块
 
 管理员登陆系统后，可以进入科室管理模块，查询科室档案的详细数据，如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/9.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/9.png)
 
 用户可以浏览医院新闻资讯等信息，并能查询科室、医生等相关信息。
 
@@ -144,35 +144,35 @@ NodeJs：前端项目的开发环境，使用版本为 16.13.0。
 
 管理员可以单击顶部的“添加”按钮，进入科室的添加界面，后输入科室的名称、科室代码、科室介绍、科室成立日期、责任医师、备注，完成科室的添加。
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/10.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/10.png)
 
 管理员可以点击每一行的“编辑”按钮，进入科室编辑模块，如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/11.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/11.png)
 
 进入科室编辑模块后，完成现有数据的修改，点击“提交并保存”按钮即可完成编辑操作。
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/12.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/12.png)
 
 同理，点击每一行科室的“删除”按钮，即可完成对科室的删除功能。
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/13.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/13.png)
 
 管理员可以点击顶部的“导出”按钮，完成科室的 Excel 导出功能。
 
 导出结果如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/14.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/14.png)
 
 医院科室的数据库设计如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/15.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/15.png)
 
 ### 医生管理模块
 
 管理员登陆系统后，可以进入医生管理模块，查询医生档案的详细数据，如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/16.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/16.png)
 
 医生的信息包括
 
@@ -198,11 +198,11 @@ NodeJs：前端项目的开发环境，使用版本为 16.13.0。
 
 可以根据科室查询医生，如在科室搜索框内输入“口腔”，点击搜索按钮，即可查询口腔科的医生列表，如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/17.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/17.png)
 
 医生的数据库设计如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/18.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/18.png)
 
 ### 医生放号模块
 
@@ -210,11 +210,11 @@ NodeJs：前端项目的开发环境，使用版本为 16.13.0。
 
 管理员进入医生放号模块，界面如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/19.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/19.png)
 
 点击每一行医生的“放号”按钮，系统弹出放号交互弹框，如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/20.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/20.png)
 
 管理员需要填入放号日期、放号时段、放号个数，完成放号功能。
 
@@ -222,17 +222,17 @@ NodeJs：前端项目的开发环境，使用版本为 16.13.0。
 
 管理员可点击每一行医生的“查询”按钮，完成对放号结果的查询，如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/21.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/21.png)
 
 医生号源的数据库设计如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/22.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/22.png)
 
 ### 预约挂号模块
 
 患者账号登陆系统后，可以进入到预约挂号模块，如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/23.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/23.png)
 
 在预约挂号模块中，可以查询需要挂号的医生。
 
@@ -240,21 +240,21 @@ NodeJs：前端项目的开发环境，使用版本为 16.13.0。
 
 如筛选了口腔科的科室，点击搜索按钮，即可完成口腔科医生的搜索，如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/24.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/24.png)
 
 患者点击每一行医生的红色的“挂号”按钮，系统弹出挂号弹框，患者可以查询该为医生的号源，如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/25.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/25.png)
 
 点击每一行的橙色“挂号”按钮，系统弹出再次确认弹框。
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/26.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/26.png)
 
 点击“确定”按钮，即可完成预约挂号操作。
 
 挂号的数据库设计如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/27.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/27.png)
 
 ### 我的挂号模块
 
@@ -262,7 +262,7 @@ NodeJs：前端项目的开发环境，使用版本为 16.13.0。
 
 该模块用于展示个人的挂号详情，界面如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/28.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/28.png)
 
 患者可以点击每一行红色的“取消点我”按钮，取消该次预约挂号，取消后号源恢复为未挂号状态。
 
@@ -272,7 +272,7 @@ NodeJs：前端项目的开发环境，使用版本为 16.13.0。
 
 患者点击“付款”后，系统将弹出二次确认弹框，如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/29.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/29.png)
 
 ### 用户留言模块
 
@@ -280,31 +280,31 @@ NodeJs：前端项目的开发环境，使用版本为 16.13.0。
 
 患者进入到用户留言模块，界面如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/30.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/30.png)
 
 患者可点击顶部蓝色的“添加”按钮，打开添加留言弹框，如下图所示。
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/31.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/31.png)
 
 患者点击弹框底部的“确认留言”按钮后，完成留言操作。
 
 留言完成后界面如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/32.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/32.png)
 
 管理员可以对留言进行回复操作，如下图所示。
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/33.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/33.png)
 
 回复成功后，管理员可以双击每一条评论行，查看该条评论的回复列表，如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/34.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/34.png)
 
 ### 医院新闻模块
 
 管理员可以进入医院新闻模块，界面如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/35.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/35.png)
 
 新闻的信息包括：
 
@@ -328,11 +328,11 @@ NodeJs：前端项目的开发环境，使用版本为 16.13.0。
 
 普通患者只能进入的医院新闻留言模块，只保留了新闻的查看功能，界面如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/36.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/36.png)
 
 医院新闻的数据库设计如下图所示：
 
-![输入图片说明](../../../../../../../../../../Download/order-register-main/image/37.png)
+![输入图片说明](../../../../../../../../Download/order-register-main/image/37.png)
 
 ## 免责声明
 
