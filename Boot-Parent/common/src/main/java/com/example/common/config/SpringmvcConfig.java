@@ -1,12 +1,12 @@
-//package com.example.common.config;
+//package com.example.common.com.example.springLearn.config;
 //
 //import com.example.common.interceptor.MyInterceptor;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.context.annotation.ComponentScan;
 //import org.springframework.context.annotation.Configuration;
-//import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
-//import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
-//import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+//import org.springframework.web.servlet.com.example.springLearn.config.annotation.InterceptorRegistry;
+//import org.springframework.web.servlet.com.example.springLearn.config.annotation.ViewControllerRegistry;
+//import org.springframework.web.servlet.com.example.springLearn.config.annotation.WebMvcConfigurer;
 //
 //@Configuration
 //@ComponentScan("com.example")

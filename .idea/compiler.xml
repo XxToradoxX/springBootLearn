@@ -11,5 +11,8 @@
         <module name="springBootLearn" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.example.springLearn.service" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
