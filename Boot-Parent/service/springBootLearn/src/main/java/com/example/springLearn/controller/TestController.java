@@ -12,6 +12,8 @@ import java.io.IOException;
 
 @Controller
 public class TestController {
+    private final String FILE_PATH = System.getProperty("user.dir") + "\\Boot-Parent\\service\\springBootLearn\\src\\main\\java\\com\\example\\springLearn\\file\\"; // 文件存储路径
+
     @GetMapping("/ts2")
     public ModelAndView aa() {
         ModelAndView modelAndView = new ModelAndView();
@@ -19,6 +21,7 @@ public class TestController {
         modelAndView.setViewName("aa");
         return modelAndView;
     }
+
     @GetMapping("/upload")
     public ModelAndView bb() {
         ModelAndView modelAndView = new ModelAndView();
@@ -42,7 +45,7 @@ public class TestController {
         }
         try {
 //            System.out.println(System.getProperty("user.dir")+"\\src");
-            String uploadDir = System.getProperty("user.dir")+"\\src\\main\\java\\com\\example\\demo\\com.example.springLearn.file\\";
+            String uploadDir = FILE_PATH;
             File uploadedFile = new File(uploadDir + file.getOriginalFilename());
             file.transferTo(uploadedFile);
             return Result.success("File uploaded successfully!");

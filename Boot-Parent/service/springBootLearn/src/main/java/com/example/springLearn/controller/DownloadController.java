@@ -19,7 +19,7 @@ import java.nio.file.Paths;
 @Slf4j
 public class DownloadController {
 
-    private final String FILE_PATH = System.getProperty("user.dir") + "\\src\\main\\java\\com\\example\\springLean\\com.example.springLearn.file\\"; // 文件存储路径
+    private final String FILE_PATH = System.getProperty("user.dir") + "\\Boot-Parent\\service\\springBootLearn\\src\\main\\java\\com\\example\\springLearn\\file\\"; // 文件存储路径
 
     @GetMapping("/download/{filename}")
 //    返回类型是ResponseEntity<Resource>,表示这个方法返回一个包含文件资源的HTTP响应实体。
