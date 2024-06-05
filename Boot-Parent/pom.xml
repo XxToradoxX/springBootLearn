@@ -3,10 +3,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.example</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>Boot-Parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
-    <description>demo</description>
+    <name>Boot-Parent</name>
+    <description>Boot-Parent</description>
+
+    <modules>
+        <module>springBootLearn</module>
+    </modules>
+    <!--    设置当前项目父工程为依赖管理，不做项目开发-->
+    <packaging>pom</packaging>
     <properties>
         <java.version>11</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -54,7 +60,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
-<!--            <version>3.2.5</version>-->
+            <!--            <version>3.2.5</version>-->
         </dependency>
 
     </dependencies>
