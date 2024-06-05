@@ -4,7 +4,44 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed30c45d-2863-40b4-af49-9840fd8deb6c" name="Changes" comment="" />
+    <list default="true" id="ed30c45d-2863-40b4-af49-9840fd8deb6c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/sql/demo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/sql/demo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/config/ServletConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/config/ServletConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/config/ServletContainerInitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/config/ServletContainerInitConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/config/SpringmvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/config/SpringmvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/controller/DownloadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/controller/DownloadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/controller/MyInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/controller/MyInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/exception/AuthException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/exception/AuthException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/file/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/file/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/mapper/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/mapper/BookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/pojo/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/pojo/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/pojo/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/pojo/Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/pojo/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/pojo/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/service/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/service/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/java/com/example/demo/servletComponent/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/demo/servletComponent/MyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/resources/com/example/demo/mapper/BookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/resources/com/example/demo/mapper/BookMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/resources/com/example/demo/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/resources/com/example/demo/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/resources/static/nb.html" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/resources/static/nb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/resources/templates/aa.html" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/resources/templates/aa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/main/resources/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/resources/templates/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/springBootLearn/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,24 +86,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/springBootLearn&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;fe01ce2a7fbac8fafaed7c982a04e229&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/springBootLearn",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "fe01ce2a7fbac8fafaed7c982a04e229",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\springBootLearn" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\springBootLearn\Boot-Parent\service" />
       <recent name="D:\springBootLearn" />
     </key>
   </component>
@@ -114,6 +156,7 @@
       <updated>1717551967304</updated>
       <workItem from="1717551968594" duration="136000" />
       <workItem from="1717552138316" duration="21000" />
+      <workItem from="1717552162480" duration="714000" />
     </task>
     <task id="LOCAL-00001" summary="666">
       <option name="closed" value="true" />
@@ -123,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717552086848</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="666">
+      <option name="closed" value="true" />
+      <created>1717552210091</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717552210091</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

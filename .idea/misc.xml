@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Boot-Parent/pom.xml" />
+        <option value="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/pom.xml" />
       </list>
     </option>
   </component>
