@@ -2,13 +2,13 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.demo.com.example.springLearn.mapper.BookMapper">
+<mapper namespace="com.example.springLearn.mapper.BookMapper">
 
-    <select id="selectAll" resultType="com.example.demo.com.example.springLearn.pojo.Book">
+    <select id="selectAll" resultType="com.example.springLearn.pojo.Book">
         select *
         from Book;
     </select>
-    <select id="selectByid" resultType="com.example.demo.com.example.springLearn.pojo.Book">
+    <select id="selectByid" resultType="com.example.springLearn.pojo.Book">
         select *
         from Book
         where bookId = #{id}
