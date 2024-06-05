@@ -1,13 +1,15 @@
-package com.example.demo.config;
+package com.example.common.config;
 
-import com.example.demo.controller.MyInterceptor;
+import com.example.common.interceptor.MyInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
+@ComponentScan("com.example")
 public class SpringmvcConfig implements WebMvcConfigurer {
     @Autowired
     private MyInterceptor interceptor;
