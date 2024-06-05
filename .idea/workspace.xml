@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed30c45d-2863-40b4-af49-9840fd8deb6c" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/springLearn/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Boot-Parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/springLearn/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/springLearn/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/springLearn/service/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/java/com/example/springLearn/service/BookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/springBootLearn/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +153,7 @@
       <workItem from="1717552138316" duration="21000" />
       <workItem from="1717552162480" duration="3427000" />
       <workItem from="1717564446811" duration="689000" />
-      <workItem from="1717565144727" duration="8389000" />
+      <workItem from="1717565144727" duration="8702000" />
     </task>
     <task id="LOCAL-00001" summary="666">
       <option name="closed" value="true" />
@@ -225,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717566091664</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1717573657775</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717573657775</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
