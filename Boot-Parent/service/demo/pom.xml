@@ -23,4 +23,5 @@
     </dependencies>
 
     <artifactId>demo</artifactId>
+    <packaging>war</packaging>
 </project>
