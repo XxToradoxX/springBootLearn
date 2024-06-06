@@ -1,67 +1,36 @@
 package com.example.common.config;
 
-import org.springframework.cache.CacheManager;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.data.redis.cache.RedisCacheConfiguration;
-import org.springframework.data.redis.cache.RedisCacheManager;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
-import org.springframework.data.redis.serializer.*;
-import java.time.Duration;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
+import org.springframework.data.redis.serializer.StringRedisSerializer;
 
-/**
- * Redis 配置类
- */
 @Configuration
+@Slf4j
 public class RedisConfig {
+    @Autowired
+    RedisConnectionFactory redisConnectionFactory;
 
-    /**
-     * 配置缓存管理器
-     * @param factory Redis 线程安全连接工厂
-     * @return 缓存管理器
-     */
     @Bean
-    public CacheManager cacheManager(RedisConnectionFactory factory) {
-        // 生成两套默认配置，通过 Config 对象即可对缓存进行自定义配置
-        RedisCacheConfiguration cacheConfig1 = RedisCacheConfiguration.defaultCacheConfig()
-                // 设置过期时间 10 分钟
-                .entryTtl(Duration.ofMinutes(10))
-                // 设置缓存前缀
-                .prefixKeysWith("cache:user:")
-                // 禁止缓存 null 值
-                .disableCachingNullValues()
-                // 设置 key 序列化
-                .serializeKeysWith(keyPair())
-                // 设置 value 序列化
-                .serializeValuesWith(valuePair());
-        RedisCacheConfiguration cacheConfig2 = RedisCacheConfiguration.defaultCacheConfig()
-                // 设置过期时间 30 秒
-                .entryTtl(Duration.ofSeconds(30))
-                .prefixKeysWith("cache:user_info:")
-                .disableCachingNullValues()
-                .serializeKeysWith(keyPair())
-                .serializeValuesWith(valuePair());
-        // 返回 Redis 缓存管理器
-        return RedisCacheManager.builder(factory)
-                .withCacheConfiguration("user", cacheConfig1)
-                .withCacheConfiguration("userInfo", cacheConfig2)
-                .build();
-    }
+    public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory redisConnectionFactory) {
 
-    /**
-     * 配置键序列化
-     * @return StringRedisSerializer
-     */
-    private RedisSerializationContext.SerializationPair<String> keyPair() {
-        return RedisSerializationContext.SerializationPair.fromSerializer(new StringRedisSerializer());
-    }
+        log.info("开始创建redis模板对象:value=={}",redisConnectionFactory);
 
-    /**
-     * 配置值序列化，使用 GenericJackson2JsonRedisSerializer 替换默认序列化
-     * @return GenericJackson2JsonRedisSerializer
-     */
-    private RedisSerializationContext.SerializationPair<Object> valuePair() {
-        return RedisSerializationContext.SerializationPair.fromSerializer(new GenericJackson2JsonRedisSerializer());
-    }
+        RedisTemplate<String, Object> redisTemplate = new RedisTemplate<String, Object>();
 
+        // 设置redis连接工厂对象
+        redisTemplate.setConnectionFactory(redisConnectionFactory);
+
+        // 设置 redis key 的序列化器，可以解决乱码问题
+        redisTemplate.setKeySerializer(new StringRedisSerializer());
+
+        // 设置 redis 值的序列化器，可以解决乱码问题
+        redisTemplate.setValueSerializer(new Jackson2JsonRedisSerializer<Object>(Object.class));
+
+        return redisTemplate;
+    }
 }
