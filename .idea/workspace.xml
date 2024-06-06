@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed30c45d-2863-40b4-af49-9840fd8deb6c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/service/demo/src/main/java/com/example/demo/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/common/src/main/java/com/example/common/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/service/demo/src/main/java/com/example/demo/config/ServletConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/common/src/main/java/com/example/common/config/ServletConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/service/demo/src/main/java/com/example/demo/config/ServletContainerInitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/common/src/main/java/com/example/common/config/ServletContainerInitConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/service/demo/src/main/java/com/example/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/src/main/java/com/example/demo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/service/demo/src/main/java/com/example/demo/exception/AuthException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/common/src/main/java/com/example/common/exception/AuthException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/service/demo/src/main/java/com/example/demo/servletComponent/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/common/src/main/java/com/example/common/servletComponent/MyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +152,7 @@
       <workItem from="1717651254890" duration="160000" />
       <workItem from="1717651440853" duration="2914000" />
       <workItem from="1717654373756" duration="2128000" />
-      <workItem from="1717657729160" duration="2156000" />
+      <workItem from="1717657729160" duration="2651000" />
     </task>
     <task id="LOCAL-00001" summary="666">
       <option name="closed" value="true" />
@@ -276,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717660179942</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1717660776374</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1717660776374</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

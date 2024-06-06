@@ -1,7 +1,7 @@
-package com.example.demo.config;
+package com.example.common.config;
 
 
-import com.example.demo.servletComponent.MyServlet;
+import com.example.common.servletComponent.MyServlet;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

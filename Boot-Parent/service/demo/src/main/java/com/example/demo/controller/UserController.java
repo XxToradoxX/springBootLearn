@@ -1,6 +1,6 @@
 package com.example.demo.controller;
 
-import com.example.demo.exception.AuthException;
+import com.example.common.exception.AuthException;
 import com.example.demo.pojo.Result;
 import com.example.demo.pojo.User;
 import com.example.demo.service.UserService;

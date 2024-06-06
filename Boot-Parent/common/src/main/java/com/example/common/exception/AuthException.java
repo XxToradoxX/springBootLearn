@@ -1,4 +1,4 @@
-package com.example.demo.exception;
+package com.example.common.exception;
 
 public class AuthException extends RuntimeException{
     public AuthException() {
