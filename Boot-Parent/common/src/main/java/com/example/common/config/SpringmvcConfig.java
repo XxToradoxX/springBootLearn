@@ -10,7 +10,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 
 @Configuration
-@ComponentScan("com.example")
 public class SpringmvcConfig implements WebMvcConfigurer {
     @Autowired
     private MyInterceptor interceptor;
