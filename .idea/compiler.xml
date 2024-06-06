@@ -8,11 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
-        <module name="springBootLearn" />
+        <module name="demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.example.springLearn.service" target="11" />
+      <module name="springBootLearn" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
