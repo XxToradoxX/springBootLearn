@@ -4,7 +4,7 @@ server:
 #    context-path: /abc
 spring:
   redis:
-    host: localhost
+    host: 127.0.0.1
     port: 6379
     database: 0
     lettuce:
@@ -12,11 +12,12 @@ spring:
         max-idle: 16
         max-active: 32
         min-idle: 8
+    password:
 
   datasource:
     username: root
-    password: root
-    url: jdbc:mysql://localhost:3306/abc
+    password: 147258369
+    url: jdbc:mysql://localhost:3308/abc
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
 mybatis:
