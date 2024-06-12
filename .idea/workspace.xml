@@ -5,7 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed30c45d-2863-40b4-af49-9840fd8deb6c" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/common/target/classes/com/example/common/config/RedisCacheConfg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/common/target/classes/com/example/common/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/common/target/classes/com/example/common/config/ServletConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/common/target/classes/com/example/common/config/ServletContainerInitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/common/target/classes/com/example/common/config/SpringmvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/common/target/classes/com/example/common/exception/AuthException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/common/target/classes/com/example/common/interceptor/MyInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/common/target/classes/com/example/common/servletComponent/MyServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/common/target/common-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/com/example/demo/DemoApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/com/example/demo/controller/BookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/com/example/demo/controller/DownloadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/com/example/demo/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/com/example/demo/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/com/example/demo/mapper/BookMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/com/example/demo/mapper/BookMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/com/example/demo/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/com/example/demo/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/com/example/demo/pojo/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/com/example/demo/pojo/Family.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/com/example/demo/pojo/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/com/example/demo/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/com/example/demo/service/BookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/com/example/demo/service/BookServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/com/example/demo/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/com/example/demo/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/static/nb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/templates/aa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/classes/templates/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/demo-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/demo-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/surefire-reports/2024-06-12T08-56-35_933.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/surefire-reports/2024-06-12T09-09-05_610.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/surefire-reports/TEST-com.example.demo.DemoApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/surefire-reports/com.example.demo.DemoApplicationTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/target/test-classes/com/example/demo/DemoApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Boot-Parent/common/src/main/java/com/example/common/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/common/src/main/java/com/example/common/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/service/demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/service/demo/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Boot-Parent/service/demo/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot-Parent/sql/demo.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,6 +255,7 @@
       <workItem from="1717657729160" duration="4491000" />
       <workItem from="1717832163600" duration="1774000" />
       <workItem from="1717940793915" duration="4607000" />
+      <workItem from="1718152907857" duration="2569000" />
     </task>
     <task id="LOCAL-00001" summary="666">
       <option name="closed" value="true" />
