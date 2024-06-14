@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8888
 #  servlet:
 #    context-path: /abc
 spring:
@@ -16,8 +16,8 @@ spring:
 
   datasource:
     username: root
-    password: root
-    url: jdbc:mysql://localhost:3306/abc
+    password: 147258369
+    url: jdbc:mysql://localhost:3308/abc
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
 mybatis:
@@ -25,4 +25,13 @@ mybatis:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     map-underscore-to-camel-case: true
 
+pagehelper:
+  #指定数据库
+  helper-dialect: mysql
+  # 默认是false。启用合理化时，如果pageNum<1会查询第一页，如果pageNum>pages（最大页数）会查询最后一页。禁用合理化时，如果pageNum<1或pageNum>pages会返回空数据
+  reasonable: false
+  #支持通过 Mapper 接口参数来传递分页参数，默认值false，分页插件会从查询方法的参数值中，自动根据上面 params 配置的字段中取值，查找到合适的值时就会自动分页
+  support-methods-arguments: true
+  # 如果pageSize=0会查询出所有的结果
+  page-size-zero: true
 

@@ -3,14 +3,14 @@ package com.example.demo.controller;
 import com.example.demo.pojo.Book;
 import com.example.demo.pojo.Result;
 import com.example.demo.service.BookService;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @Slf4j
@@ -20,10 +20,17 @@ public class BookController {
     BookService bookService;
 
     @PostMapping()
-    public Result bookList() {
+    public Result bookList(@RequestBody Map<String, Integer> map) {
+        // pageNum:当前页，pageSize:每页的显示的数据数目
+        PageHelper.startPage(map.get("pageNumber"), map.get("pageSize"));
         List<Book> bookList = bookService.SelectAll();
-        log.info("bookList接口调用返回: {}", bookList);
-        return Result.success(bookList);
+        // 上面两行代码必须在一起，设置.startPage()方法后立即查询数据
+        PageInfo<Book> pageInfo = new PageInfo<>(bookList);
+        // 获得分页后的数据信息
+        return Result.success(pageInfo);
+//        List<Book> bookList = bookService.SelectAll();
+//        log.info("bookList接口调用返回: {}", bookList);
+//        return Result.success(bookList);
     }
 
     @PostMapping("/{id}")
