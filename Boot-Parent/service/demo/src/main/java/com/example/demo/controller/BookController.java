@@ -15,6 +15,7 @@ import java.util.Map;
 @RestController
 @Slf4j
 @RequestMapping("/book")
+@CrossOrigin
 public class BookController {
     @Autowired
     BookService bookService;
@@ -39,5 +40,9 @@ public class BookController {
         log.info("bookId调用返回: {}", book);
         return Result.success(book);
     }
-
+    @PostMapping("/book")
+    public Result bookList() {
+        List<Book> bookList = bookService.SelectAll();
+        return Result.success(bookList);
+    }
 }
